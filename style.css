@@ -1,0 +1,196 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+/* Navbar section */
+.nav-container{
+   display: flex;
+   justify-content: space-around;
+   background-color: grey;
+   align-items: center;
+}
+.menus{
+   display: flex;
+   gap: 20px;
+   list-style: none;
+}
+.menus a{
+   text-decoration: none;
+   color: azure;
+}
+/* navbar section end */
+/* Banner section start */
+.banner-container{
+   height: 100vh;
+   background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 80px;
+}
+.banner-info{
+   text-align: center;
+   color: antiquewhite;
+}
+.ban-title{
+   font-size: 55px;
+   margin-bottom: 20px;
+}
+.dig{
+   color: red;
+}
+.ban-desc{
+   width: 60%;
+   margin: auto;
+   margin-bottom: 20px;
+}
+.btn{
+   padding: 12px 20px;
+   border: none;
+   margin-left: 20px;
+   border-radius: 10px;
+}
+.bg-primary{
+   background-color: red;
+   color: whitesmoke;
+}
+/* Banner section end */
+/* Service section start */
+.service-container{
+   margin: 0 auto;
+   height: 100vh;
+   background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,1));
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: overlay;
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   width: 90%;
+}
+.left-container, .right-container{
+   width: 50%;
+}
+.left-container{
+   padding-left: 5px;
+}
+.left-container ol{
+   margin-left: 15px;
+}
+.author-profile{
+   display: flex;
+   align-items: center;
+}
+.author-logo{
+   display: flex;
+   align-items: center;
+   border-right: 2px solid red;
+   padding-right: 30px;
+}
+.author-logo img{
+   width: 70px;
+   height: 70px;
+   border-radius: 35px;
+}
+.right-container{
+   color: black;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 5px;
+}
+.service-box{
+   display: flex;
+   gap: 8px;
+}
+.service{
+   text-align: center;
+   width: 50%;
+   padding: 20px;
+   background-color: white;
+   border-radius: 10px;
+}
+.ser-photo{
+   width: 200px;
+   height: 200px;
+}
+/* Service section end */
+/* Appointment section start */
+.appointment-container{
+   display: flex;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   background-color: rgba(255, 0, 0, 0.678);
+   padding: 5px;
+   gap: 8px;
+   margin-top: -30px;
+}
+.phone-call{
+   display: flex;
+   align-items: center;
+}
+.phone-call img{
+   width: 70px;
+   height: 70px;
+}
+
+/* Appointment section end */
+
+/* Blog section start */
+.blog{
+   background-color: rgba(131, 127, 118, 0.527);
+   margin: 0 auto;
+   margin-top: 50px;
+   text-align: center;
+   width: 80%;
+   padding: 10px;
+}
+.card-container{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 20px;
+}
+.card{
+   width: 200px;
+   height: 300px;
+   box-shadow: 4px 8px 4px rgba(128, 128, 128, 0.733);
+   border-radius: 10px;
+}
+.card img{
+   width: 100%;
+   border-radius: 10px 10px 0px 0px;
+}
+/* Blog section end */
+/* footer start */
+footer{
+   height: 400px;
+   background-color: rgba(0, 0, 0, 0.815);
+   color: white;
+   margin-top: 80px;
+}
+.footer1, .footer2, .footer3, .footer4{
+   width: 20%;
+}
+.footer-container{
+   display: flex;
+   gap: 10px;
+   justify-content: space-around;
+   align-items: center;
+   height: 80%;
+}
+.hr{
+   width: 80%;
+   margin: auto;
+}
+.small{
+   text-align: center;
+   margin-top: 8px;
+}
+/* footer end */
